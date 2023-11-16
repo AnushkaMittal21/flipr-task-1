@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nobel Prize Winners</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nobel Prize Winners</h1>
+  </header>
+  <div class="filters">
+    <label for="year">Select Year:</label>
+    <select id="year">
+    </select>
+    <label for="category">Select Category:</label>
+    <select id="category">
+    </select>
+    <br>
+    <button onclick="fetchWinners()">Submit</button>
+  </div>
+
+  <div class="prizes" id="prizes">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
