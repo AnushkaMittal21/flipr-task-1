@@ -1,4 +1,4 @@
-const url = 'http://api.nobelprize.org/v1/prize.json';
+const url = 'https://cors-anywhere.herokuapp.com/http://api.nobelprize.org/v1/prize.json';
 
 function fetchWinners() {
     const selectedYear = document.getElementById('year').value;
