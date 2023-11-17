@@ -4,44 +4,12 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
 .filters {
-    margin-bottom: 20px;
-    text-align: center;
-    margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-.filters label{
-    font-size: large;
-}
-
-.prize-card{
-    margin-top: 100px;
-    text-align: center;
-    border: 2px solid black;
-    width: 30%;
-    margin: auto;
-}
-
-button{
-    margin-top: 45px;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 20px;
-    background-color: white;
-}
-
-button:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
+.prize-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
 }
