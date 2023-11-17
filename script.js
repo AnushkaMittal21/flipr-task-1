@@ -18,7 +18,6 @@ function displayPrizes(prizes) {
         prizeCard.classList.add('prize-card');
         prizeCard.innerHTML = `
             <h2>${prize.year} - ${prize.category}</h2>
-            <p><strong>Motivation:</strong> ${prize.motivation}</p>
             <p><strong>Winners:</strong></p>
             <ul>
                 ${prize.laureates.map(laureate => `<li>${laureate.firstname} ${laureate.surname}</li>`).join('')}
