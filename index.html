@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <title>Nobel Prize Winners</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Nobel Prize Winners</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <h1>Nobel Prize Winners</h1>
-  </header>
-  <div class="filters">
-    <label for="year">Select Year:</label>
-    <select id="year">
-    </select>
-    <label for="category">Select Category:</label>
-    <select id="category">
-    </select>
-    <br>
-    <button onclick="fetchWinners()">Submit</button>
-  </div>
+    <header>
+        <h1>Nobel Prize Winners</h1>
+        <div class="filters">
+            <label for="category-select">Filter by Category:</label>
+            <select id="category-select"></select>
 
-  <div class="prizes" id="prizes">
-  </div>
+            <label for="year-select">Filter by Year:</label>
+            <select id="year-select"></select>
+        </div>
+    </header>
 
-  <script src="script.js"></script>
+    <main>
+        <section id="prizes-list"></section>
+        <section id="multiple-winners"></section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
